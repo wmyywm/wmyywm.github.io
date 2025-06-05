@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - NHK Furigana Caption Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 30px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for NHK Furigana Caption Viewer</h1>
+    <div class="last-updated">Last Updated: <span id="update-date"></span></div>
+
+    <h2>Data Collection</h2>
+    <p>We Do NOT collect any user data including but not limited to the following data:</p>
+    <ul>
+        <li><strong>Personally identifiable information</strong><br>
+            (e.g., name, address, email, age, ID numbers)</li>
+        <li><strong>Health information</strong><br>
+            (e.g., medical history, symptoms, diagnoses)</li>
+        <li><strong>Financial/payment information</strong><br>
+            (e.g., credit card numbers, transactions)</li>
+        <li><strong>Authentication information</strong><br>
+            (e.g., passwords, PINs, security questions)</li>
+        <li><strong>Personal communications</strong><br>
+            (e.g., emails, texts, chat messages)</li>
+        <li><strong>Location data</strong><br>
+            (e.g., GPS, IP address, nearby devices)</li>
+        <li><strong>Web history</strong><br>
+            (e.g., visited pages, browsing activity)</li>
+        <li><strong>User activity</strong><br>
+            (e.g., clicks, keystrokes, mouse movements)</li>
+        <li><strong>Website content</strong><br>
+            (e.g., private text, images, videos)</li>
+    </ul>
+
+    <h2>Extension Functionality</h2>
+    <ul>
+        <li>Only processes publicly available NHK captions to add furigana</li>
+        <li>All operations occur locally in your browser</li>
+        <li>No data is stored or transmitted to any servers</li>
+    </ul>
+
+    <h2>Optional Local Storage</h2>
+    <ul>
+        <li>May store user preferences (e.g., timing settings) locally in your browser</li>
+    </ul>
+
+    <div class="footer">
+        <h2>Contact</h2>
+        <p>For questions, please open a GitHub Issue <a href="https://github.com/[your-username]/[repo-name]/issues">here</a>.</p>
+    </div>
+
+    <script>
+        // Auto-update the year
+        document.getElementById('update-date').textContent = new Date().toLocaleDateString('en-US', {
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric'
+        });
+    </script>
+</body>
+</html>
